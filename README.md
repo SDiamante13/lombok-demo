@@ -18,9 +18,14 @@ Next, download the [lombok jar](https://repo1.maven.org/maven2/org/projectlombok
 Once you download the jar run the command: `java -jar lombok-1.18.12.jar`
 
 It will not find MyEclipse automatically.
+
+![alt text](src/main/resources/Installer1.png)
+
 You must browse for the location. You want to find the MyEclipse.app file and right click on it and show Contents. Then navigate to Contents/Profile and find the eclipse.ini file.
 
 <small>**Windows file structure may appear differently**</small>
+
+![alt text](src/main/resources/Installer2.png)
 
 While interacting with your model classes annotated with Lombok if you still see errors try restarting MyEclipse and then running 
 `mvn clean install`
