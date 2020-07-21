@@ -42,5 +42,9 @@ After running `mvn clean install` run the following command to see the java byte
 
 `javap -c target/classes/tech/pathtoprogramming/lombokdemo/model/VideoGame.class`
 
+## Using Delombok
+
+An alternative to seeing the byte code is to use the delombok plugin. All models must be in a package called lombok for this to work. After running `mvn clean install` navigate to `target/generated-sources/delombok` and find your code after annotations have been coverted to boilerplate code.
+
 
 
